@@ -1,0 +1,557 @@
+{
+  "categories": {
+    "ka": {
+      "Starter": "წასახემსებლები",
+      "Eggs": "კვერცხის კერძები",
+      "Salad": "სალათები",
+      "Hot Soup": "ცხელი წვნილები",
+      "Tandoor": "თონე (Tandoor)",
+      "Mutton": "ცხვრის ხორცი",
+      "Chicken": "ქათმის კერძები",
+      "Fish & Seafood": "თევზეული და ზღვის პროდუქტები",
+      "Vegetables": "ბოსტნეული",
+      "Paneer": "პანირი (ყველი)",
+      "Rice": "ბრინჯი"
+    },
+    "en": {
+      "Starter": "Starters",
+      "Eggs": "Eggs",
+      "Salad": "Salads",
+      "Hot Soup": "Hot Soups",
+      "Tandoor": "Tandoor",
+      "Mutton": "Mutton",
+      "Chicken": "Chicken",
+      "Fish & Seafood": "Fish & Seafood",
+      "Vegetables": "Vegetables",
+      "Paneer": "Paneer",
+      "Rice": "Rice"
+    },
+    "hi": {
+      "Starter": "स्टार्टर्स (Starters)",
+      "Eggs": "अंडे (Eggs)",
+      "Salad": "सलाद (Salad)",
+      "Hot Soup": "गरम सूप (Hot Soup)",
+      "Tandoor": "तंदूर (Tandoor)",
+      "Mutton": "मटन (Mutton)",
+      "Chicken": "चिकन (Chicken)",
+      "Fish & Seafood": "मछली और सीफूड (Fish & Seafood)",
+      "Vegetables": "सब्जियां (Vegetables)",
+      "Paneer": "पनीर (Paneer)",
+      "Rice": "चावल (Rice)"
+    }
+  },
+  "sections": {
+    "Starter": [
+      [
+        "Chicken Pakora",
+        "25 ₾",
+        "12 pcs"
+      ],
+      [
+        "Chilli Chicken",
+        "25 ₾",
+        ""
+      ],
+      [
+        "Chicken Manchurian",
+        "25 ₾",
+        ""
+      ],
+      [
+        "Garlic Chicken",
+        "30 ₾",
+        ""
+      ],
+      [
+        "Chicken Nuggets",
+        "25 ₾",
+        "8 pcs"
+      ],
+      [
+        "Veg Chilli Paneer",
+        "30 ₾",
+        "8 pcs"
+      ],
+      [
+        "Chilli Potatoes",
+        "20 ₾",
+        "10–12 pcs"
+      ],
+      [
+        "Paneer Tikka",
+        "35 ₾",
+        "5–6 pcs"
+      ],
+      [
+        "Paneer Pakora",
+        "25 ₾",
+        "8 pcs"
+      ],
+      [
+        "Gobi 65",
+        "25 ₾",
+        "10 pcs"
+      ],
+      [
+        "Paneer 65",
+        "35 ₾",
+        "8 pcs"
+      ],
+      [
+        "Masala Boondi",
+        "10 ₾",
+        ""
+      ],
+      [
+        "Fish Amritsari Fry",
+        "35 ₾",
+        "8 pcs"
+      ],
+      [
+        "Fish Nuggets",
+        "45 ₾",
+        "8 pcs"
+      ],
+      [
+        "Shrimp Chilli",
+        "45 ₾",
+        ""
+      ],
+      [
+        "Shrimp Pakora",
+        "45 ₾",
+        "8 pcs"
+      ]
+    ],
+    "Eggs": [
+      [
+        "Egg Curry",
+        "25 ₾",
+        "Boiled egg in smooth onion-tomato gravy with North Indian spices."
+      ],
+      [
+        "Omelette",
+        "22 ₾",
+        ""
+      ],
+      [
+        "Egg Bhurji",
+        "14 ₾",
+        ""
+      ]
+    ],
+    "Salad": [
+      [
+        "Green Salad",
+        "12 ₾",
+        "Cucumber, tomato, onion, carrot, green chili and lemon."
+      ],
+      [
+        "Kachumber Salad",
+        "10 ₾",
+        "Cabbage, capsicum, onion, tomato, green chili, cucumber, lemon and Indian spices."
+      ],
+      [
+        "Onion Salad",
+        "5 ₾",
+        ""
+      ]
+    ],
+    "Hot Soup": [
+      [
+        "Tomato Soup",
+        "10 ₾",
+        "Cream of tomato infused with herbs and spices."
+      ],
+      [
+        "Chicken Soup",
+        "12 ₾",
+        "Chicken stock, fresh herbs, shredded chicken and coriander."
+      ],
+      [
+        "Vegetable Soup",
+        "10 ₾",
+        "Vegetable stock, herbs, vegetables and coriander."
+      ],
+      [
+        "Mushroom Soup",
+        "10 ₾",
+        "Mushroom stock with milk cream."
+      ],
+      [
+        "Lentil Soup",
+        "10 ₾",
+        "Yellow lentils, garlic, onion, turmeric and lemon."
+      ],
+      [
+        "Hot & Sour Soup Chicken",
+        "12 ₾",
+        ""
+      ],
+      [
+        "Hot & Sour Soup Veg",
+        "12 ₾",
+        ""
+      ],
+      [
+        "Veg Noodles",
+        "20 ₾",
+        ""
+      ],
+      [
+        "Chicken Noodles",
+        "25 ₾",
+        ""
+      ]
+    ],
+    "Tandoor": [
+      [
+        "Chicken Tikka",
+        "30 ₾",
+        ""
+      ],
+      [
+        "Chicken Tandoori",
+        "32 ₾",
+        ""
+      ],
+      [
+        "Chicken Afghani",
+        "37 ₾",
+        ""
+      ],
+      [
+        "Tandoori Fish",
+        "47 ₾",
+        ""
+      ],
+      [
+        "Tandoori Shrimp",
+        "57 ₾",
+        ""
+      ],
+      [
+        "Tandoori Mixed Grill",
+        "67 ₾",
+        ""
+      ],
+      [
+        "Tandoori Vegetables",
+        "42 ₾",
+        ""
+      ]
+    ],
+    "Mutton": [
+      [
+        "Kashmiri Roghan Josh",
+        "37 ₾",
+        "Tender lamb cubes in yogurt-based sauce with herbs and light spices."
+      ],
+      [
+        "Mutton Curry",
+        "37 ₾",
+        "Tender lamb slow cooked in light gravy with fresh ground spices and chili paste."
+      ],
+      [
+        "Mutton Masala",
+        "34 ₾",
+        "Tender lamb with fresh tomatoes, oriental spices and a touch of cream."
+      ],
+      [
+        "Lamb Karahi",
+        "37 ₾",
+        "6 pcs"
+      ],
+      [
+        "Mutton Korma",
+        "37 ₾",
+        "6 pcs"
+      ],
+      [
+        "Mutton Palak",
+        "37 ₾",
+        ""
+      ]
+    ],
+    "Chicken": [
+      [
+        "Karahi Chicken",
+        "32 ₾",
+        "Boneless chicken with capsicum, onions, garlic, ginger, tomatoes and Indian seasoning."
+      ],
+      [
+        "Chicken Tikka Masala",
+        "32 ₾",
+        "Tandoor-roasted boneless chicken with peppers and special sauce."
+      ],
+      [
+        "Chicken Curry",
+        "28 ₾",
+        "Chicken with bone in light gravy and fresh ground spices."
+      ],
+      [
+        "Butter Chicken",
+        "32 ₾",
+        "Tandoor-roasted boneless chicken in creamy tomato sauce."
+      ],
+      [
+        "Chicken Lababdar",
+        "32 ₾",
+        "Boneless chicken with onion, capsicum and ginger in a flavorful sauce."
+      ],
+      [
+        "Chicken Korma",
+        "32 ₾",
+        ""
+      ],
+      [
+        "Achari Chicken",
+        "30 ₾",
+        "6 pcs"
+      ],
+      [
+        "Chicken Keema",
+        "32 ₾",
+        ""
+      ],
+      [
+        "Schezwan Chicken",
+        "32 ₾",
+        ""
+      ],
+      [
+        "Chicken Masala",
+        "32 ₾",
+        "6 pcs"
+      ],
+      [
+        "Methi Chicken",
+        "32 ₾",
+        "6 pcs"
+      ],
+      [
+        "Hariyali Chicken",
+        "32 ₾",
+        "6 pcs"
+      ],
+      [
+        "Pepper Chicken",
+        "32 ₾",
+        "6 pcs"
+      ],
+      [
+        "Lemon Chicken",
+        "32 ₾",
+        "6 pcs"
+      ],
+      [
+        "Chicken Jalfrezi",
+        "37 ₾",
+        "8 pcs"
+      ]
+    ],
+    "Fish & Seafood": [
+      [
+        "Fish Curry",
+        "30 ₾",
+        "Fish in light onion, garlic and ginger gravy with fresh ground spices."
+      ],
+      [
+        "Fish Masala",
+        "32 ₾",
+        "Fish with onion, garlic, ginger and Indian spices."
+      ],
+      [
+        "Salmon Curry",
+        "37 ₾",
+        "Salmon fillet with tomato, coconut milk and aromatic Indian spices."
+      ],
+      [
+        "Shrimp Masala",
+        "44 ₾",
+        "Shrimp with coconut oil, curry leaves, fennel, black pepper, cumin and spices."
+      ],
+      [
+        "Shrimp Curry",
+        "42 ₾",
+        "Prawn with onion, garlic, ginger, tomatoes, coriander and chili."
+      ]
+    ],
+    "Vegetables": [
+      [
+        "Dal Makhani",
+        "25 ₾",
+        "Black dal, chana dal and kidney beans slow simmered with onion, garlic, ginger and cream."
+      ],
+      [
+        "Chana Masala",
+        "25 ₾",
+        "Chickpeas cooked in an exotic blend of North Indian spices."
+      ],
+      [
+        "Tadka Dal",
+        "25 ₾",
+        "Yellow lentils tempered with onion, garlic, ginger and tomatoes."
+      ],
+      [
+        "Dal Palak",
+        "25 ₾",
+        ""
+      ],
+      [
+        "Palak Corn",
+        "22 ₾",
+        ""
+      ],
+      [
+        "Mix Vegetable",
+        "22 ₾",
+        "Seasonal vegetables cooked in curry sauce."
+      ],
+      [
+        "Methi Aloo",
+        "20 ₾",
+        ""
+      ],
+      [
+        "Aloo Matar",
+        "20 ₾",
+        ""
+      ],
+      [
+        "Aloo Gobi",
+        "20 ₾",
+        "Cauliflower and potatoes with ginger, cumin, tomato and coriander."
+      ],
+      [
+        "Palak Chana",
+        "28 ₾",
+        ""
+      ],
+      [
+        "Rajma Masala",
+        "22 ₾",
+        ""
+      ],
+      [
+        "Aloo Jeera",
+        "20 ₾",
+        "Potatoes cooked with cumin seeds and aromatic spices."
+      ]
+    ],
+    "Paneer": [
+      [
+        "Paneer Tikka Masala",
+        "32 ₾",
+        "Homemade Indian soft cheese, tomato, onion and capsicum, roasted and finished in creamy sauce."
+      ],
+      [
+        "Paneer Butter Masala",
+        "32 ₾",
+        "Paneer with cashew, coconut and creamy tomato sauce."
+      ],
+      [
+        "Malai Kofta",
+        "28 ₾",
+        "Soft cheese and potato balls with dry nuts."
+      ],
+      [
+        "Palak Paneer",
+        "28 ₾",
+        "Spinach with paneer, herbs and spices."
+      ],
+      [
+        "Mutter Paneer",
+        "28 ₾",
+        ""
+      ],
+      [
+        "Karahi Paneer",
+        "32 ₾",
+        "Paneer with onions, capsicum, herbs and spices."
+      ],
+      [
+        "Paneer Labaddar",
+        "32 ₾",
+        ""
+      ],
+      [
+        "Paneer Korma",
+        "34 ₾",
+        ""
+      ],
+      [
+        "Mushroom Masala",
+        "28 ₾",
+        ""
+      ]
+    ],
+    "Rice": [
+      [
+        "Steamed Rice",
+        "10 ₾",
+        "Fluffy long-grain Indian basmati rice."
+      ],
+      [
+        "Jeera Rice",
+        "14 ₾",
+        ""
+      ],
+      [
+        "Vegetable Biryani",
+        "25 ₾",
+        "Aromatic basmati rice with seasonal vegetables, herbs, spices and nuts."
+      ],
+      [
+        "Vegetable Fried Rice",
+        "22 ₾",
+        ""
+      ],
+      [
+        "Biryani Rice",
+        "22 ₾",
+        ""
+      ],
+      [
+        "Garlic Rice",
+        "14 ₾",
+        ""
+      ],
+      [
+        "Egg Biryani",
+        "24 ₾",
+        "Aromatic basmati rice and eggs with Indian herbs and spices."
+      ],
+      [
+        "Egg Fried Rice",
+        "22 ₾",
+        ""
+      ],
+      [
+        "Chicken Biryani",
+        "30 ₾",
+        ""
+      ],
+      [
+        "Chicken Fried Rice",
+        "27 ₾",
+        ""
+      ],
+      [
+        "Mutton Biryani",
+        "34 ₾",
+        ""
+      ],
+      [
+        "Vegetable Pulao",
+        "24 ₾",
+        ""
+      ],
+      [
+        "Shrimp Biryani",
+        "47 ₾",
+        ""
+      ]
+    ]
+  }
+}

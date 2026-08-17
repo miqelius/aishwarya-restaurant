@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MASALA — Indian Kitchen • Tbilisi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#17130f;--cream:#f7f0e4;--gold:#c99a3b;--red:#8e241b;--muted:#756b60}
+    *{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,sans-serif}
+    .container{width:min(1160px,92%);margin:auto}
+    header{position:fixed;z-index:20;top:0;left:0;right:0;padding:18px 0;background:rgba(23,19,15,.94);backdrop-filter:blur(12px)}
+    .nav{display:flex;align-items:center;justify-content:space-between}
+    .logo{font-family:"Cormorant Garamond";font-size:32px;color:#fff;text-decoration:none;font-weight:700}
+    nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px;font-weight:600}
+    .hero{min-height:700px;display:grid;place-items:center;text-align:center;color:#fff;background:linear-gradient(rgba(17,10,5,.7),rgba(17,10,5,.7)),url("https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1800&q=85") center/cover;padding-top:100px}
+    h1{font-family:"Cormorant Garamond";font-size:clamp(50px,8vw,100px);margin:20px 0}
+    .btn{display:inline-block;padding:12px 24px;background:var(--gold);color:#fff;text-decoration:none;font-weight:700;border-radius:4px;margin:5px}
+    section{padding:80px 0}.menu-wrap{background:#fffaf2}
+    .accordion-item{border:1px solid #d9cbb8;border-radius:6px;background:#fff;margin-bottom:12px;overflow:hidden}
+    .accordion-header{width:100%;padding:18px 25px;background:none;border:none;display:flex;justify-content:space-between;align-items:center;font-family:"Cormorant Garamond";font-size:26px;font-weight:600;cursor:pointer}
+    .accordion-content{max-height:0;overflow:hidden;transition:max-height .3s ease-out;padding:0 25px}
+    .accordion-item.active .accordion-content{max-height:1500px;padding:0 25px 20px}
+    .item{padding:14px 0;border-bottom:1px dashed #ddd0bf;display:flex;justify-content:space-between;gap:20px}
+    .item h4{margin:0 0 4px;font-family:"Cormorant Garamond";font-size:20px}
+    .item p{margin:0;font-size:12px;color:var(--muted)}
+    .price{color:var(--red);font-weight:700;white-space:nowrap}
+  </style>
+</head>
+<body>
+<header><div class="container nav"><a class="logo" href="#">MASALA</a><nav><a href="#menu">Menu</a><a href="/admin" target="_blank">Admin</a></nav></div></header>
+<section class="hero"><div class="container"><h1>Flavour of India</h1><p>Authentic Indian dishes in Tbilisi</p><a class="btn" href="#menu">Explore Menu</a></div></section>
+<section class="menu-wrap" id="menu">
+  <div class="container">
+    <h2 style="font-family:'Cormorant Garamond';font-size:48px;text-align:center;margin-bottom:40px">Menu</h2>
+    <div id="menuAccordion"></div>
+  </div>
+</section>
+<script>
+async function loadMenu() {
+  const res = await fetch('/api/menu');
+  const data = await res.json();
+  const container = document.getElementById('menuAccordion');
+  const cats = data.categories['en'];
+  const secs = data.sections;
+  
+  Object.entries(secs).forEach(([key, items], idx) => {
+    const title = cats[key] || key;
+    const div = document.createElement('div');
+    div.className = 'accordion-item' + (idx === 0 ? ' active' : '');
+    div.innerHTML = `
+      <button class="accordion-header" onclick="this.parentElement.classList.toggle('active')">
+        <span>${title}</span><span>+</span>
+      </button>
+      <div class="accordion-content">
+        ${items.map(i => `<div class="item"><div><h4>${i[0]}</h4><p>${i[2]||''}</p></div><div class="price">${i[1]}</div></div>`).join('')}
+      </div>`;
+    container.appendChild(div);
+  });
+}
+loadMenu();
+</script>
+</body>
+</html>
